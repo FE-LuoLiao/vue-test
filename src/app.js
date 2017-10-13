@@ -7,8 +7,7 @@ import { App } from './app.vue';
 console.log(App)
 
 new Vue({
-    // el: '#example',
-    // template: '<App>{{message}</App>',
+
     components: {
         App: App
     },
@@ -18,10 +17,6 @@ new Vue({
         }
     }
 }).$mount('#app')
-
-// var app = new Vue({
-//     el: '#app',
-//     data: {
-//         message: 'Hello Vue!'
-//     }
-// });
+ Vue.component('my-div',{
+     template:'<div>test</div>>'
+ });
